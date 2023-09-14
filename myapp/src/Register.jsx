@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-//these are React hooks that can be directly updated
+//the useState is a React hook that can be directly updated
 export const Register = (props) => {
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');

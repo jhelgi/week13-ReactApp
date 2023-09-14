@@ -1,9 +1,9 @@
 import React, {useState} from "react";
-//these are React hooks that can be directly updated
+//the useState is a React hook that can be directly updated
 export const Login = (props) => {
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
-
+//this prevents the page from reloading without saving the state of the page
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(email);

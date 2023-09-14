@@ -1,5 +1,5 @@
 import React from 'react';
-
+//nonfunctional navbar
 function Navbar() {
     return (
         <div>
